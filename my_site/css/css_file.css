@@ -1,0 +1,79 @@
+﻿.header {
+	width: 100%;
+	height: 130px;
+	background: #21002f;
+}
+.header_inside {
+	width: 1000px;
+	height: 128px;
+	margin: auto;
+	border: 1px green solid;
+}
+.header_bottom {
+	width: 100%;
+	height: 295px;
+	background:url(images/header_pic.jpg); 
+}
+.main {
+	width: 100%;
+	min-height: 300px; 
+}
+.footer {
+	width: 100%;
+	height: 235px;
+	background: #21002f;
+}
+.main_inside {
+	width: 1000px;
+	min-height: 300px;
+	margin: auto;
+	border: 1px blue solid;
+}
+.footer_inside {
+	width: 1000px;
+	height: 235px;
+	margin: auto;
+	border: 1px red solid;
+}
+.logo {
+	display: block;
+	width: 120px;
+	height: 120px;
+	margin: 10px 0 0 0;
+	float: left;
+	background:url(images/My_logo/logo_transparent_small.png);  
+}
+.phone {
+	float: right;
+	color: white;
+	font-size: 20px;
+	font-family: 'Source Code Pro', monospace;
+	margin: 52px 0 0 0; 
+}
+.menu {
+	padding: 20px 0 0 0;
+}
+.menu a {
+	display: inline-block;
+	width: 160px;
+	height: 50px;
+	text-align: center;
+	line-height: 48px;
+	cursor: pointer;
+	border: 1px gray solid;
+	font-family: 'Source Code Pro', monospace;
+}
+.content {
+	margin: 0 0  50px 0;
+	border: 1px gray solid;
+	font-family: 'Source Code Pro', monospace;
+}
+.github{
+	color: white;
+	display: block;
+	width: 64px;
+	height: 64px;
+	margin: 10px 0 0 0;
+	float: left;
+	background:url(images/github.png);
+}
